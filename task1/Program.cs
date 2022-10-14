@@ -3,3 +3,18 @@
 14212 -> нет
 12821 -> да
 23432 -> да */
+
+int GetNumber (int number)
+{
+    int []array = {number};
+    string massiv = string.Join(",",array);
+    Console.WriteLine($" { massiv } ");
+    return number;    
+    
+}
+
+
+
+
+GetNumber(41082);
+
